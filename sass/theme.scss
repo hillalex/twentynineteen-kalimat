@@ -1,0 +1,32 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: $dark-gray;
+}
+
+.button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background: $theme-blue
+}
+
+a, a:hover, a:focus, a:visited, .entry .entry-meta a:hover, .entry .entry-footer a:hover {
+  color: $theme-blue;
+  transition: none;
+}
+
+.page-title {
+  color: $dark-gray !important;
+  display: block !important;
+  margin: 1em 0 !important;
+}
+
+.page-header {
+  margin-bottom: 0 !important;
+}
+
+.entry {
+  margin: 0 !important;
+}

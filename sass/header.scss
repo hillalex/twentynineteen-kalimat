@@ -1,0 +1,78 @@
+@import "variables";
+
+.site-title, .site-description, .site-title a {
+  color: #fff !important;
+}
+
+.site-header {
+  background-size: cover;
+}
+
+.site-logo {
+  margin-bottom: 0;
+  position: absolute;
+  top: -15px;
+  left: -120px;
+
+  .custom-logo-link {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+#masthead {
+  position: relative;
+}
+
+.stripe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $dark;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.site-branding {
+  z-index: 3;
+}
+
+.main-navigation {
+  .sub-menu {
+    background-color: $light-grey !important;
+
+    li {
+      &:nth-child(2) {
+        border-top: 5px solid $theme-red;
+      }
+
+      a {
+        color: $theme-blue;
+        &:hover {
+          background-color: $theme-red;
+          color: white !important;
+        }
+      }
+    }
+  }
+
+  .main-menu {
+    > .menu-item {
+      border-bottom: 5px solid transparent;
+
+      &:hover {
+        border-bottom: 5px solid $theme-red;
+      }
+    }
+
+    > li {
+      color: #fff;
+
+      > a, > a:hover {
+        color: #fff;
+      }
+    }
+  }
+}

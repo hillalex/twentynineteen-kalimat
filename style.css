@@ -1,0 +1,101 @@
+/*
+ Theme Name:   Twenty Nineteen Kalimat
+ Description:  Twenty Nineteen Custom Child Theme for Kalimat
+ Template: twentynineteen
+ Author:       Alex Hill
+ Author URI:   http://alexandra.hill.com
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+.site-title, .site-description, .site-title a {
+  color: #fff !important; }
+
+.site-header {
+  background-size: cover; }
+
+.site-logo {
+  margin-bottom: 0;
+  position: absolute;
+  top: -15px;
+  left: -120px; }
+  .site-logo .custom-logo-link {
+    width: 100px;
+    height: 100px; }
+
+#masthead {
+  position: relative; }
+
+.stripe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1f3345;
+  opacity: 0.6;
+  z-index: 2; }
+
+.site-branding {
+  z-index: 3; }
+
+.main-navigation .sub-menu {
+  background-color: #eee !important; }
+  .main-navigation .sub-menu li:nth-child(2) {
+    border-top: 5px solid #dd1616; }
+  .main-navigation .sub-menu li a {
+    color: #000080; }
+    .main-navigation .sub-menu li a:hover {
+      background-color: #dd1616;
+      color: white !important; }
+
+.main-navigation .main-menu > .menu-item {
+  border-bottom: 5px solid transparent; }
+  .main-navigation .main-menu > .menu-item:hover {
+    border-bottom: 5px solid #dd1616; }
+
+.main-navigation .main-menu > li {
+  color: #fff; }
+  .main-navigation .main-menu > li > a, .main-navigation .main-menu > li > a:hover {
+    color: #fff; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+.site-content {
+  flex: 1 0 auto; }
+
+.main-footer {
+  background: #011a29;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+  font-size: 0.75em;
+  flex-shrink: 0; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333; }
+
+.button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background: #000080; }
+
+a, a:hover, a:focus, a:visited, .entry .entry-meta a:hover, .entry .entry-footer a:hover {
+  color: #000080;
+  transition: none; }
+
+.page-title {
+  color: #333 !important;
+  display: block !important;
+  margin: 1em 0 !important; }
+
+.page-header {
+  margin-bottom: 0 !important; }
+
+.entry {
+  margin: 0 !important; }
