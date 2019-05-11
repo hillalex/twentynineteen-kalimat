@@ -1,6 +1,7 @@
 {
   "name": "twentynineteen-kalimat",
   "version": "1.0.0",
+  "homepage": "https://github.com/hillalex/twentynineteen-kalimat",
   "description": "Custom child WP theme for Kalimat website",
   "main": "gulpfile.js",
   "scripts": {

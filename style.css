@@ -77,6 +77,14 @@ body {
   font-size: 0.75em;
   flex-shrink: 0; }
 
+.social {
+  float: left; }
+  .social .social-icon img {
+    height: 35px;
+    vertical-align: middle; }
+  .social .social-icon:first-child {
+    margin-left: 30px; }
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -99,3 +107,26 @@ a, a:hover, a:focus, a:visited, .entry .entry-meta a:hover, .entry .entry-footer
 
 .entry {
   margin: 0 !important; }
+
+.entry-content figure, .homepage-content figure {
+  text-align: center; }
+
+.homepage-content {
+  max-width: 80%;
+  margin: 0 10%;
+  padding: 0 60px; }
+  .homepage-content hr {
+    background-color: #eee; }
+
+.clients {
+  margin-bottom: 2em; }
+  .clients table, .clients tbody {
+    display: flex; }
+  .clients tr {
+    display: flex; }
+    .clients tr td {
+      border: none;
+      display: inline-block; }
+
+.nextend-thumbnail-inner > div {
+  background-color: #eee !important; }

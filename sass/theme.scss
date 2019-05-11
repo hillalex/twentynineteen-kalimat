@@ -30,3 +30,38 @@ a, a:hover, a:focus, a:visited, .entry .entry-meta a:hover, .entry .entry-footer
 .entry {
   margin: 0 !important;
 }
+
+.entry-content, .homepage-content {
+  figure {
+    text-align: center;
+  }
+}
+
+.homepage-content {
+  max-width: 80%;
+  margin: 0 10%;
+  padding: 0 60px;
+
+   hr {
+     background-color: $light-grey;
+   }
+}
+
+.clients {
+  margin-bottom: 2em;
+  table, tbody {
+    display: flex;
+  }
+  tr {
+    display: flex;
+    td {
+      border: none;
+      display: inline-block;
+    }
+  }
+}
+
+.nextend-thumbnail-inner > div {
+  background-color: $light-grey !important;
+}
+

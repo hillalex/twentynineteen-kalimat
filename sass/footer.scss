@@ -19,3 +19,18 @@ body {
   font-size: 0.75em;
   flex-shrink: 0;
 }
+
+.social {
+  float: left;
+
+  .social-icon {
+    img {
+      height: 35px;
+      vertical-align: middle;
+    }
+    &:first-child {
+      margin-left: 30px;
+    }
+  }
+}
+
