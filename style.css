@@ -85,6 +85,32 @@ body {
   .social .social-icon:first-child {
     margin-left: 30px; }
 
+.homepage-content {
+  max-width: 80%;
+  margin: 0 10%;
+  padding: 0 60px; }
+  .homepage-content hr {
+    background-color: #eee; }
+
+.clients {
+  margin-bottom: 2em; }
+  .clients table, .clients tbody {
+    display: flex; }
+  .clients tr {
+    display: flex; }
+    .clients tr td {
+      border: none;
+      display: inline-block; }
+
+.testimonials {
+  display: flex; }
+  .testimonials p {
+    padding: 0 10px 10px 10px;
+    font-size: 90%;
+    flex-grow: 1;
+    flex-basis: 0;
+    color: #666; }
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -110,23 +136,6 @@ a, a:hover, a:focus, a:visited, .entry .entry-meta a:hover, .entry .entry-footer
 
 .entry-content figure, .homepage-content figure {
   text-align: center; }
-
-.homepage-content {
-  max-width: 80%;
-  margin: 0 10%;
-  padding: 0 60px; }
-  .homepage-content hr {
-    background-color: #eee; }
-
-.clients {
-  margin-bottom: 2em; }
-  .clients table, .clients tbody {
-    display: flex; }
-  .clients tr {
-    display: flex; }
-    .clients tr td {
-      border: none;
-      display: inline-block; }
 
 .nextend-thumbnail-inner > div {
   background-color: #eee !important; }

@@ -22,18 +22,37 @@ get_header();
 					endwhile; // End of the loop.
 					?>
                     <hr/>
-                    <div class="clients">
-		                <?php $the_query = new WP_Query( array( 'page_id' => 19 ) );
-		                if ( $the_query->have_posts() ) :
-			                while ( $the_query->have_posts() ) : $the_query->the_post();
-				                ?>
-                                <h4><?php the_title() ?></h4>
-				                <?php
-				                the_content();
 
-			                endwhile;
-			                wp_reset_postdata(); ?>
-		                <?php endif; ?>
+					<?php $the_query = new WP_Query( array( 'name'           => 'reviews',
+					                                        'post_type'      => 'page',
+					                                        'posts_per_page' => '3'
+					) );
+					if ( $the_query->have_posts() ) :
+						while ( $the_query->have_posts() ) : $the_query->the_post();
+							?>
+                            <h4>Testimonials</h4>
+                            <div class="testimonials">
+							<?php
+							the_content();
+
+						endwhile;
+						wp_reset_postdata(); ?>
+                        </div>
+                        <hr/>
+					<?php endif; ?>
+
+                    <div class="clients">
+						<?php $the_query = new WP_Query( array( 'page_id' => 19 ) );
+						if ( $the_query->have_posts() ) :
+							while ( $the_query->have_posts() ) : $the_query->the_post();
+								?>
+                                <h4><?php the_title() ?></h4>
+								<?php
+								the_content();
+
+							endwhile;
+							wp_reset_postdata(); ?>
+						<?php endif; ?>
                     </div>
                 </div>
 

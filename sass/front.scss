@@ -1,0 +1,34 @@
+.homepage-content {
+  max-width: 80%;
+  margin: 0 10%;
+  padding: 0 60px;
+
+  hr {
+    background-color: $light-grey;
+  }
+}
+
+.clients {
+  margin-bottom: 2em;
+  table, tbody {
+    display: flex;
+  }
+  tr {
+    display: flex;
+    td {
+      border: none;
+      display: inline-block;
+    }
+  }
+}
+
+.testimonials {
+  display: flex;
+  p {
+    padding: 0 10px 10px 10px;
+    font-size: 90%;
+    flex-grow: 1;
+    flex-basis: 0;
+    color: #666;
+  }
+}
