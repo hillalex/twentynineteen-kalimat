@@ -5,6 +5,7 @@
   "description": "Custom child WP theme for Kalimat website",
   "main": "gulpfile.js",
   "scripts": {
+    "sass": "gulp sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Hill",
