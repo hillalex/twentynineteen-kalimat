@@ -1,5 +1,5 @@
 # twentynineteen-kalimat
-Child theme of WordPress twentynineteen theme, customised for Kalimat Egypt
+Child theme of WordPress twentynineteen theme, customised for [Kalimat Egypt](https://kalimategypt.com/)
 
 To develop:
 1. clone this repo
